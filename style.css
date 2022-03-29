@@ -118,7 +118,9 @@ section.Imagem {
     color: white;
     padding: 20px;
     background-attachment: fixed;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 
 section.Imagem > p {
