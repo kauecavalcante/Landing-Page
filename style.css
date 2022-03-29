@@ -84,6 +84,10 @@ main {
     border-bottom-right-radius: 10px;
 }
 
+.drop {
+    text-decoration: none;
+}
+
 main h1 {
     color: var(--cor4);
     font-family: var(--fonte1);
@@ -111,6 +115,28 @@ main a {
 main a:hover {
     text-decoration: underline;
     color: var(--cor2);
+}
+
+
+
+img{
+    
+    width: 20vw; 
+    margin-left: 15px;   
+    margin-bottom: 15px;
+    margin-right: 5px;
+    border-radius: 50px;
+}
+
+img, p.chile01 {
+    display: inline-block;
+
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    
 }
 
 section.Imagem {
