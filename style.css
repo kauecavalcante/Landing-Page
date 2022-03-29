@@ -131,7 +131,6 @@ section#img01 {
     background-image: url('judo.jpg');
     background-position: center center;
     background-size: cover;
-    border-radius: 10px;
 }
 
 section > ul {
