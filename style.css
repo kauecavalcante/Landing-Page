@@ -115,6 +115,7 @@ main a:hover {
 
 section.Imagem {
     background-color: rgb(51, 51, 51);
+    height: 400px;
     color: white;
     padding: 20px;
     background-attachment: fixed;
