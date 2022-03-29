@@ -24,6 +24,10 @@ body {
     font-family: var(--fonte0);
 }
 
+a.externo::after { /* para adicioar o emoji de link, sinalizando que tal coisa é um link */
+    content: '\00A0\1F517';
+}
+
 header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
     min-height: 150px;
@@ -107,6 +111,32 @@ main a {
 main a:hover {
     text-decoration: underline;
     color: var(--cor2);
+}
+
+section.Imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 20px;
+    background-attachment: fixed;
+    margin-bottom: 30px
+}
+
+section.Imagem > p {
+    display: inline-block;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+section#img01 {
+    background-image: url('judo.jpg');
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+section > ul {
+    list-style-position: inside;
+    list-style-type: '\1F947\00A0\00A0';
 }
 
 aside {
