@@ -108,7 +108,7 @@ main strong {
 
 main a {
     text-decoration: none;
-    color: var(--cor0);
+    color: var(--cor1);
     background-color: var();
 }
 
@@ -177,3 +177,8 @@ aside > ul {
     list-style-position: inside;
     list-style-type: '\2714\00A0\00A0';
 }
+
+.ul {
+    color: white;
+}
+
