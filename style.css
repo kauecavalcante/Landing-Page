@@ -132,7 +132,7 @@ img {
 
 section.Imagem {
     background-color: rgb(51, 51, 51);
-    height: 400px;
+    
     color: white;
     padding: 20px;
     background-attachment: fixed;
@@ -149,8 +149,8 @@ section.Imagem > p {
 
 section#img01 {
     background-image: url('judo01.jpg');
-    background-position: center center;
     background-size: cover;
+    background-position: center center;
 }
 
 section > ul {
