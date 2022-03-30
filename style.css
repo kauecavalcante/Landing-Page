@@ -139,6 +139,7 @@ section.Imagem {
     margin-bottom: 30px;
     margin-left: -20px;
     margin-right: -20px;
+    height: 400px;
 }
 
 section.Imagem > p {
